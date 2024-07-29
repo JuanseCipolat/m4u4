@@ -1,0 +1,420 @@
+/* Estilos generales */
+body {
+  font-family: 'Open Sans', sans-serif;
+  background-color: #f0f0f0;
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #ffffff;
+  color: #0646ff;
+  padding: 20px;
+}
+
+header img {
+  vertical-align: middle;
+}
+
+header h1 {
+  display: inline-block;
+  margin-left: 10px;
+}
+
+nav {
+  background-color: #333;
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  text-align: center;
+}
+
+nav ul li {
+  display: inline;
+}
+
+nav ul li a {
+  display: inline-block;
+  color: #fff;
+  padding: 10px 20px;
+  text-decoration: none;
+}
+
+nav ul li a:hover {
+  background-color: #555;
+}
+
+footer {
+  background-color: #1a1a1a;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border-top: 1px solid #fff;
+  border-bottom: 1px solid #fff;
+  border-radius: 0 0 5px 5px;
+
+}
+
+/* Estilos para index */
+
+main {
+  padding: 20px;
+  background-color: #fff;
+}
+
+main h2 {
+  color: #0646ff; 
+  font-size: 30px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+main .noticias-destacadas {
+  background-color: #e6f2ff; 
+  display: inline-block;
+  width: calc(33.33% - 20px);
+  margin: 0 10px 20px 0;
+  vertical-align: top;
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  padding: 20px;
+  border-radius: 5px;
+}
+
+main .noticias-destacadas img {
+  display: block;
+  width: 100%;
+  border-radius: 5px 5px 0 0;
+}
+
+main .noticias-destacadas h3 {
+  color: #0646ff; 
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+main .noticias-destacadas p {
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+main .noticias-destacadas .leer-mas {
+  background-color: #0646ff; 
+  color: #fff;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 4px;
+  text-decoration: none;
+  display: inline-block;
+}
+
+main .noticias-destacadas .leer-mas:hover {
+  background-color: #e6f2ff; 
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  margin: 20px;
+}
+
+.ultimoslanzamientos,
+.reviews-main {
+  width: calc(50% - 20px);
+  justify-content: space-between; 
+  background-color: #fff;
+}
+
+.ultimoslanzamientos h2,
+.reviews-main h2 {
+  margin-top: 0;
+  margin-bottom: 10px;
+  color: #0646ff;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.ultimoslanzamientos div,
+.reviews-main div {
+  display: block;
+  margin-bottom: 10px;
+  padding: 20px;
+  background-color: #e6f2ff;
+  border-radius: 5px 5px 0 0;
+  border: 1px solid #ccc;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.ultimoslanzamientos p,
+.reviews-main p {
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+
+/* Estilos para la sección de noticias */
+
+main .noticia {
+  background-color: #e6f2ff; 
+  display: inline-block;
+  width: calc(33.33% - 20px);
+  margin: 0 10px 20px 0;
+  vertical-align: top;
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  padding: 20px;
+  border-radius: 5px;
+}
+
+main .noticia img {
+  display: block;
+  width: 100%;
+  border-radius: 5px 5px 0 0;
+}
+
+main .noticia h3 {
+  color: #0646ff; 
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+main .noticia p {
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+main .noticia .leer-mas {
+  background-color: #0646ff; 
+  color: #fff;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 4px;
+  text-decoration: none;
+  display: inline-block;
+}
+
+main .noticia .leer-mas:hover {
+  background-color: #e6f2ff; 
+}
+
+/* Estilos para la sección de reviews */
+.review-box {
+  background-color: #e6f2ff; 
+  display: inline-block;
+  vertical-align: top;
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  padding: 20px;
+  border-radius: 5px;
+  margin-bottom: 50px;
+  width: 100%;
+}
+
+.review-box h3 {
+  color: #0646ff; 
+  font-size: 20px;
+  margin-bottom: 10px;
+  text-align: center;
+  font-weight: bold;
+}
+
+.review-box p {
+  margin-bottom: 10px;
+  font-weight: bold;
+  text-align: center;
+  font-size: 18px;
+}
+
+.review-box img {
+  display: block;
+  width: 100%;
+  max-width: 30%;
+  border-radius: 5px 5px 0 0;
+  margin-bottom: 20px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
+  float: left;
+}
+
+
+/* Estilos para la sección de retro */
+
+.seccion-retro {
+  padding: 20px;
+  background-color: #f0f0f0;
+}
+
+.contenedor-juego,
+.contenedor-consola {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.juego,
+.consola {
+  background-color: #e6f2ff;
+  display: inline-block;
+  vertical-align: top;
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  padding: 20px;
+  border-radius: 5px;
+  margin-bottom: 50px;
+  width: calc(50% - 20px); 
+}
+
+.juego img,
+.consola img {
+  display: block;
+  width: 100%;
+  max-width: 30%;
+  border-radius: 5px 5px 0 0;
+  margin-bottom: 20px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
+  float: left;
+}
+
+.juego h3,
+.consola h3 {
+  color: #0646ff;
+  font-size: 20px;
+  margin-bottom: 10px;
+  text-align: center;
+  font-weight: bold;
+}
+
+.juego p,
+.consola p {
+  margin-bottom: 10px;
+  font-weight: bold;
+  text-align: center;
+  font-size: 18px;
+}
+
+/* Estilos para la sección shop */
+
+.shop {
+  padding-bottom: 100px; 
+  box-sizing: border-box; 
+}
+
+.shop h1 {
+  margin-bottom: 20px; 
+}
+
+.catalogo {
+  display: inline-block;
+  vertical-align: top;
+  width: calc(25% - 20px); 
+  margin-right: 20px; 
+  margin-bottom: 20px; 
+  background-color: #e6f2ff;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  transition: box-shadow 0.3s; 
+  overflow: hidden; 
+  text-align: center; 
+}
+
+.catalogo:hover {
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.2); 
+}
+
+.catalogo:last-child {
+  margin-right: 0; 
+}
+
+.catalogo img {
+    width: 100%;
+    max-width: 30%; 
+    padding: 10px;
+    border-radius: 5px 5px 0 0; 
+    margin-bottom: 20px;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.25);
+    float: left;
+}
+
+.catalogo h2 {
+  color: #0646ff;
+  font-size: 18px; 
+  margin: 10px; 
+}
+
+.catalogo p {
+  font-size: 16px;
+  margin: 0 10px 10px; 
+}
+
+.catalogo button {
+  display: block; 
+  width: 100%; 
+  background-color: #0646ff;
+  color: #fff;
+  border: none;
+  padding: 10px 0; 
+  border-radius: 0 0 5px 5px; 
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.catalogo button:hover {
+  background-color: #0336b2;
+}
+
+
+/* Estilos para la sección de contacto */
+
+.seccion-contacto {
+  padding: 20px;
+  background-color: #e6f2ff;
+  max-width: 600px; 
+  margin: 0 auto; 
+}
+
+.grupo-formulario {
+  margin-bottom: 20px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+  color: #333;
+  font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+  box-sizing: border-box; 
+}
+
+textarea {
+  resize: vertical; 
+}
+
+button[type="submit"] {
+  background-color: #0646ff;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+button[type="submit"]:hover {
+  background-color: #0336b2;
+}
